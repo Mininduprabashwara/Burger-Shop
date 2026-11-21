@@ -196,7 +196,6 @@ function toggleCart() {
 // Mobile Navigation
 
 function toggleMenu() {
-
     document.getElementById("navLinks")
         .classList.toggle("active");
 
@@ -206,11 +205,8 @@ function toggleMenu() {
 // Checkout
 
 function checkout() {
-
     if (cart.length === 0) {
-
         alert("Your cart is empty!");
-
         return;
 
     }
@@ -225,13 +221,9 @@ function checkout() {
     );
 
     if (confirmOrder) {
-
         alert("Thank you for choosing BURGERX! 🍔\nYour demo order has been placed.");
-
         cart = [];
-
         updateCart();
-
         toggleCart();
 
     }
@@ -242,5 +234,4 @@ function checkout() {
 // Initialize Website
 
 displayBurgers();
-
 updateCart();
