@@ -192,7 +192,6 @@ function toggleCart() {
 
 
 // Mobile Navigation
-
 function toggleMenu() {
     document.getElementById("navLinks")
         .classList.toggle("active");
@@ -201,7 +200,6 @@ function toggleMenu() {
 
 
 // Checkout
-
 function checkout() {
     if (cart.length === 0) {
         alert("Your cart is empty!");
