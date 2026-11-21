@@ -184,9 +184,7 @@ function removeItem(id) {
 
 
 // Open / Close Cart
-
 function toggleCart() {
-
     document.getElementById("cartPanel")
         .classList.toggle("active");
 
